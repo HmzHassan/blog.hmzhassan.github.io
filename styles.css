@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 97%;
+    z-index: 1000;
+  
+    
+
+}
+
+.header .title-container {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.header .title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .subtitle {
+    font-size: 14px;
+}
+
+.header .links {
+    display: flex;
+    gap: 15px;
+}
+
+.header .links a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.wellcome{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    margin-top: 20vw;
+    padding: 2vw;
+    padding-top: 15vw;
+    padding-bottom: 20vw;
+    background-color: #D8D8D8;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: x-large;
+
+}
+
+.center{
+    text-align: center;
+    line-height: 2px;
+    font-size: x-large;
+}
+
+.About{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 3vw;
+    margin-left:3vw;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2vw;
+    padding-left: 19vw;
+    padding-right: 19vw;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    background-color: #D8D8D8;
+    text-align: center;
+    font-size: x-large;
+    
+
+}
+
+.link{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    margin-top: 8px;
+    padding: 2vw;
+    padding-left: 19vw;
+    padding-right: 19vw;
+    line-height: 2px;
+    background-color: #D8D8D8;
+    text-align: center;
+    font-size: x-large;
+    
+}
+
+
+
+.contact{
+    background-color: #FEE4D5;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
+    color: #b40000;
+    cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+    
+}
+.contact:hover {
+    background-color: #b40000;
+    color: #FEE4D5;
+}
+
+.foot{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 3vw;
+    margin-left: 3vw;
+    margin-top: 8px;
+    padding: 2vw;
+    
+    line-height: 2px;
+    background-color: #D8D8D8;
+    text-align: center;
+   
+    
+}
+a{
+    color: #b40000;
+}
+
+
+@media (max-width: 768px) {
+    .header {
+        padding: 8px 15px;
+    }
+
+    .header .title {
+        font-size: 1.5rem; /* حجم الخط للعنوان على الأجهزة الصغيرة */
+    }
+
+    .header .subtitle {
+        font-size: 0.8rem; /* حجم الخط للنص الفرعي على الأجهزة الصغيرة */
+    }
+
+    .header .links a {
+        font-size: 0.8rem; /* حجم الخط للروابط على الأجهزة الصغيرة */
+    }
+
+    .welcome {
+        margin-top: 15vw;
+        padding-top: 10vw;
+        padding-bottom: 15vw;
+        
+    }
+
+   
+
+    .welcome p {
+        font-size: 1.2rem;  /* حجم الخط للفقرة على الأجهزة الصغيرة */
+    }
+
+    .center {
+        font-size: 1.2rem; /* حجم الخط للنص المركزي على الأجهزة الصغيرة */
+    }
+
+    .about {
+        margin-top: 15vw;
+        padding-top: 10vw;
+        padding-bottom: 15vw;
+    }
+
+    .about h2 {
+        font-size: 1.5rem; /* حجم الخط للعنوان على الأجهزة الصغيرة */
+    }
+
+    .about p {
+        font-size: 1.2rem; 
+    }
+
+    .link {
+        font-size: 1.2rem;  
+    }
+
+    .link h1 {
+        font-size: 1.5rem; /* حجم الخط للعنوان على الأجهزة الصغيرة */
+    }
+
+    .contact {
+        padding: 12px; /* تعديل حجم الحاشية للزر على الأجهزة الصغيرة */
+    }
+
+    .foot {
+        padding: 2vw;
+    }
+}
